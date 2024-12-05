@@ -1,5 +1,9 @@
 export default function Home () {
-    return (
-        <div> Function Home </div>
-    )
+	return (
+		<main>
+			<div className='home'>
+			<p>Bienvenue sur mon portfolio ! <br /> Bonne visite 👋</p>
+			</div>
+		</main>
+)
 }

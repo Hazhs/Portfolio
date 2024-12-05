@@ -1,5 +1,9 @@
+import Profil from '../../Components/Profil.jsx'
+
 export default function About () {
     return (
-        <div> Function ABOUT </div>
+        <main>
+        <Profil />
+        </main>
     )
 }
