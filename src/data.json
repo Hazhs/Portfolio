@@ -1,0 +1,79 @@
+[
+	{
+		"title" : "Booki",
+		"projectUrl" : "https://hazhs.github.io/Projet2Booki/",
+		"projectImg" : "P1.png",
+		"tags" : [
+			"HTML 5",
+			"CSS",
+			"Responsive mobile",
+			"Responsive tablette"
+		]
+	},
+	{
+		"title" : "Sophie Bluel - Architecte d'intérieur",
+		"projectUrl" : "https://hazhs.github.io/Projet3JS/",
+		"projectImg" : "P2.png",
+		"tags" : [
+			"Javascript",
+			"Événements utilisateurs",
+			"Filtrer une galerie",
+			"Utilisation d'une API"
+		]
+	},
+	{
+		"title" : "Nina Carducci - Photographe professionnelle",
+		"projectUrl" : "https://hazhs.github.io/Projet4SEO/",
+		"projectImg" : "P3.png",
+		"tags" : [
+			"Accessibilité",
+			"Performances",
+			".webp",
+			"Extension Wave",
+			"Débogage",
+			"Gimp"
+		]
+	},
+	{
+		"title" : "Kasa",
+		"projectUrl" : "https://hazhs.github.io/Projet5React/",
+		"projectImg" : "P4.png",
+		"tags" : [
+			"React",
+			"Routeur",
+			"SCSS"
+		]
+	},
+	{
+		"title" : "Le vieux Grimoire",
+		"projectUrl" : "https://hazhs.github.io/Projet6BackEnd",
+		"projectImg" : "P5.png",
+		"tags" : [
+			"NodeJS",
+			"MongoDB",
+			"Express",
+			"Mongoose",
+			"Multer",
+			"Sharp",
+			"Gestion des routes",
+			"Routes utilisateurs",
+			"Middleware",
+			"Contrôleurs",
+			"Modèles de données",
+			"Bcrypt",
+			"Création d'une API"
+	]
+	},
+	{
+		"title" : "MenuMaker by Qwenta",
+		"projectUrl" : "/",
+		"projectImg" : "P6.png",
+		"tags" : [
+			"Spécifications techniques",
+			"Méthode Agile",
+			"Scrum",
+			"Tableau Kanban",
+			"Gestion de projet"
+		]
+	}
+]

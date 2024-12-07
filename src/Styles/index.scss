@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@525&display=swap');
-@import './profil.scss';
+
 
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -10,6 +10,7 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; 
+    
 	}
   
 body {
@@ -19,6 +20,7 @@ body {
   height: 100%;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 
 #root {
@@ -73,9 +75,10 @@ body {
         cursor: pointer;
       }
     }
-  }
+  };
 
   main {
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.0) 100%);
     display: grid;
     flex : 1;
     font-size : 50px;
