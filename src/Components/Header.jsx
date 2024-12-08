@@ -17,9 +17,10 @@ export default function Header() {
     }
   }, [])
 
-  const textNav1 = windowWidth < 650 ? '' : 'Accueil';
-  const textNav2 = windowWidth < 650 ? '' : 'Profil';
-	const textNav3 = windowWidth < 650 ? '' : 'Réalisations';
+  const textNav1 = windowWidth < 1024 ? '' : 'Accueil';
+  const textNav2 = windowWidth < 1024 ? '' : 'Profil';
+	const textNav3 = windowWidth < 1024 ? '' : 'Travaux';
+  const textNav4 = windowWidth < 1024 ? '' : 'Contact';
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -49,7 +50,7 @@ export default function Header() {
           to='#'
           onClick={handleClick}>
             <FontAwesomeIcon icon={faEnvelope} />
-            Contact
+            {textNav4}
         </NavLink>
       </nav>
     </header>

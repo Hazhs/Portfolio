@@ -1,14 +1,22 @@
 import PropTypes from 'prop-types';
-import Tags from './Tags.jsx'
+import { useState } from 'react'
+import ModalProject from './Modal.jsx'
 
 export default function Card ({ cardElement }) {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	const openModal = () => {
+		setIsModalOpen(true);
+	};
+
+	const closeModal = () => {
+		setIsModalOpen(false);
+	};
 
 	Card.propTypes = {
 		cardElement: PropTypes.shape({
 			title : PropTypes.string.isRequired,
-			projectImg : PropTypes.string.isRequired,
-			projectUrl : PropTypes.string.isRequired,
-			tags : PropTypes.arrayOf(PropTypes.string).isRequired,
+			projectImg : PropTypes.string.isRequired
 		}).isRequired,
 	};
 
@@ -17,14 +25,16 @@ export default function Card ({ cardElement }) {
 	}
 
 	return (
-		<a
-		href={`${cardElement.projectUrl}`}
-		target="_blank"
-		className="card"
-		style={backgroundImg}>
+		<div
+		className='card'
+		style={backgroundImg}
+		onClick={() => openModal(cardElement)}>
 			<div className='card-info'>
 				<p>{cardElement.title}</p>
-				<Tags ToTag={cardElement}/>
 			</div>
-		</a>
+			<ModalProject 
+				isOpen={isModalOpen}
+				onClose={closeModal}
+				dataId={cardElement}/>
+		</div>
 	)}

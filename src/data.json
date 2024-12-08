@@ -1,53 +1,73 @@
 [
 	{
+		"id" : "1",
 		"title" : "Booki",
 		"projectUrl" : "https://hazhs.github.io/Projet2Booki/",
-		"projectImg" : "P1.png",
+		"projectImg" : "P1.webp",
+		"imgAlt" : "Visuel du site de Booki",
 		"tags" : [
 			"HTML 5",
 			"CSS",
 			"Responsive mobile",
 			"Responsive tablette"
-		]
+		],
+		"description" : "Le projet consistait à créer la page internet d'une agence de voyager nommé Booki. Je devais donc coder la page d'accueil en HTML et CSS, et qu'elle soit responsive pour les tablettes et mobiles. J'avais pour base de départ une petite partie de l'interface déjà créé ainsi qu'une maquette sur Figma du résultat souhaité.",
+		"difficulties" : "J'ai rencontré quelques difficultés sur le bon fonctionnement des widths sur le passage graduel de la taille d'écran vers les tablettes, où un léger différenciel se créait."
 	},
 	{
+		"id" : "2",
 		"title" : "Sophie Bluel - Architecte d'intérieur",
-		"projectUrl" : "https://hazhs.github.io/Projet3JS/",
-		"projectImg" : "P2.png",
+		"projectUrl" : "https://github.com/Hazhs/Projet3JS",
+		"projectImg" : "P2.webp",
+		"imgAlt" : "Visuel de la page d'accueil du site de Sophie Bluel",
 		"tags" : [
 			"Javascript",
 			"Événements utilisateurs",
 			"Filtrer une galerie",
 			"Utilisation d'une API"
-		]
+		],
+		"description" : "En partant d'une page d'accueil statique, je devais généré la galerie de façon dynamique via un fetch au Back-end, je devais également implanter une fonction de filtres de la gallerie en fonction de la catégorie. Je devais également permettre au client de se connecter de façon sécurisé (via la création d'un login.html et du stockage du Token de la réponse), afin qu'elle puisse accéder à une modale pour supprimer ou ajouter un travail à la galerie.",
+		"difficulties" : "Trouver le bon format de donnée à envoyer au backend (formData), et gérer les éléments des galeries de la page d'accueil et de la modale dynamiquement."
 	},
 	{
+		"id" : "3",
 		"title" : "Nina Carducci - Photographe professionnelle",
 		"projectUrl" : "https://hazhs.github.io/Projet4SEO/",
-		"projectImg" : "P3.png",
+		"projectImg" : "P3.webp",
+		"imgAlt" : "Visuel de la page d'accueil du site de Nina Carduccie - Photographe profesionnelle",
 		"tags" : [
 			"Accessibilité",
 			"Performances",
 			".webp",
 			"Extension Wave",
 			"Débogage",
-			"Gimp"
-		]
+			"Gimp",
+			"Référencement local",
+			"Rich snippet"
+		],
+		"description" : "Pour ce projet, je devais améliorer le référencement du site web. Cela passait donc par améliorer les performances (réduction des tailles et du changement du format d'images), améliorer l'accessibilité en ajoutant, vérifiant ou en corrigeant les textes alternatives des images. J'avais deux bugs à corriger dans le code qui était en JQuery, en l'occurrence, une classe qui ne s'ajoutait pas au moment élément et une absence d'index cible pour les flèches de navigation de la galerie d'images. Je devais également du SEO à rajouter, comme les balises pour les partages sur les réseaux sociaux / Rich Snippet, ou encore effectuer le référencement local.",
+		"difficulties" : "Ne connaissant pas JQuery, j'ai pris un peu de temps avant de trouver ce qu'il n'allait pas dans le code, et a trouver un modèle cohérent pour le Rich Snippet."
 	},
 	{
+		"id" : "4",
 		"title" : "Kasa",
 		"projectUrl" : "https://hazhs.github.io/Projet5React/",
-		"projectImg" : "P4.png",
+		"projectImg" : "P4.webp",
+		"imgAlt" : "Visuel de la page d'accueil du site de Kasa",
 		"tags" : [
 			"React",
 			"Routeur",
 			"SCSS"
-		]
+		],
+		"description" : "Le projet constitait à créer de zéro le Front-end de Kasa, un site de location d'appartement entre particuliers. Je devais donc prendre un main les bases d'un projet d'application Web en React avec un routeur et avec une partie responsive mobile en SCSS.",
+		"difficulties" : "Ce qui m'a posé le plus de difficutés, c'est la bonne gestion des erreurs d'Url pour couvrir l'ensemble des possibilités, pour se faire, j'ai donc implanter du code qui vient vérifier pour le cas des erreur d'id des locations, que l'id est bien présent dans les donnnées du data.json."
 	},
 	{
+		"id" : "5",
 		"title" : "Le vieux Grimoire",
-		"projectUrl" : "https://hazhs.github.io/Projet6BackEnd",
-		"projectImg" : "P5.png",
+		"projectUrl" : "https://github.com/Hazhs/Projet6BackEnd",
+		"projectImg" : "P5.webp",
+		"imgAlt" : "Visuel du site du site Mon Vieux Grimoire",
 		"tags" : [
 			"NodeJS",
 			"MongoDB",
@@ -61,19 +81,26 @@
 			"Contrôleurs",
 			"Modèles de données",
 			"Bcrypt",
+			"CRUD",
 			"Création d'une API"
-	]
+	],
+	"description" : "Le projet consistait à implanter un serveur pour le site de notation de livre 'Le Vieux Grimoire', sachant que le front-end avait déjà été réalisé. Je devais donc créer un serveur Express et coder les routes pour opérations CRUD, d'un système de notation de livre et avant cela, de l'enregistrement et de la connexion de l'utilisateur.",
+	"difficulties" : "Ce qui m'a posé le plus problème, c'était la gestion des conflits entre les routes qui généraient des problèmes de priorités, ce qui résultait en une mauvaise route éxecutée."
 	},
 	{
+		"id" : "6",
 		"title" : "MenuMaker by Qwenta",
-		"projectUrl" : "/",
-		"projectImg" : "P6.png",
+		"projectUrl" : "https://github.com/Hazhs/P7GestionDeProjet",
+		"projectImg" : "P6.webp",
+		"imgAlt" : "Visuel de la maquette du site MenuMaker by Qwenta",
 		"tags" : [
 			"Spécifications techniques",
 			"Méthode Agile",
 			"Scrum",
 			"Tableau Kanban",
 			"Gestion de projet"
-		]
+		],
+		"description" : "En partant d'une maquette sur Figma, ainsi que d'un récapitulatif des besoins utilisateurs, je devais rédiger un document des spécifications techniques, ainsi que créer un tableau Kanban, qui viendrait appuyer visuellement la découpe des tâches ainsi que les User Stories et critères de succès associés ces dernières. Au-delà de ça, je devais également mettre en place une système de veille me permettant de comparer les différentes stacks possibles pour ce projet, le tout devant être présenté par la suite au Product Manager du projet.",
+		"difficulties" : "La rédaction du Kanban afin qu'il soit cohérent, ainsi que la rédaction de la partie concernant la maintenance du site et son évolution dans le document de spécifications techniques."
 	}
 ]

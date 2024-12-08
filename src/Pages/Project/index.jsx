@@ -1,18 +1,9 @@
-import Card from '../../Components/Card.jsx'
-import data from '../../data.json'
-import '../../Styles/project.scss'
+import ProjectGallery from '../../Components/Project.jsx'
 
-export default function Project() {
-	const dataCards = data.map((data) => (
-		<Card key={data.id} cardElement={data} />
-	))
-
-	return (
-		<main>
-			<div className="gallery">
-				{dataCards}
-			</div>
+export default function ProjectPage () {
+    return (
+        <main>
+			<ProjectGallery/>
 		</main>
-	)
+    )
 }
-  
