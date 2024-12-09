@@ -21,25 +21,26 @@ export default function ModalProject ({ isOpen, onClose, dataId }) {
 		<Modal
 			isOpen={isOpen}
 			onRequestClose={onClose}
+			shouldCloseOnOverlayClick={true}
 			contentLabel="Description du projet et difficultés rencontrés avec lien vers repo"
 			className="modal-content"
 			overlayClassName="modal-overlay"
 		>
-			<button className="close-modal" onClick={(e) => {
-				e.stopPropagation();
-				onClose();
-  		}}>
-				X
+			<div className="git-link" onClick={(e) => e.stopPropagation()}>
+				<button className="close-modal" onClick={onClose}>
+					X
 				</button>
-			<h3>{dataId?.title}</h3>
-			<h4>Description</h4>
-			<p>{dataId?.description}</p>
-			<h4>Difficultés rencontrées</h4>
-			<p>{dataId?.difficulties}</p>
-			<Tag ToTag={dataId}/>
-			<a href={`${dataId?.projectUrl}`} target="_blank" className='modal-link'>
-				Code / Site Web
-			</a>
+				<br/>
+				<h3>{dataId?.title}</h3>
+				<h4>Description</h4>
+				<p>{dataId?.description}</p>
+				<h4>Difficultés rencontrées</h4>
+				<p>{dataId?.difficulties}</p>
+				<Tag ToTag={dataId}/>
+				<a href={`${dataId?.projectUrl}`} target="_blank" rel="noopener noreferrer" className='modal-link'>
+					Code / Site Web
+				</a>
+			</div>
 		</Modal>
 	)
 }

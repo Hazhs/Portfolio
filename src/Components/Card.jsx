@@ -28,8 +28,8 @@ export default function Card ({ cardElement }) {
 		<div
 		className='card'
 		style={backgroundImg}
-		onClick={() => openModal(cardElement)}>
-			<div className='card-info'>
+		>
+			<div className='card-info' onClick={() => openModal(cardElement)}>
 				<p>{cardElement.title}</p>
 			</div>
 			<ModalProject 
