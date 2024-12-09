@@ -21,8 +21,8 @@ export default function Card ({ cardElement }) {
 	};
 
 	const backgroundImg = {
-		backgroundImage : `url(/assets/Images/${cardElement.projectImg})`
-	}
+		backgroundImage : `url(/Portfolio/assets/Images/${cardElement.projectImg})`
+	};
 
 	return (
 		<div

@@ -13,9 +13,9 @@ Je suis ouvert à bouger dans une grande agglomération partout en France, alors
 					<p>
 						{profilDescription}
 					</p>
-					<img src='/assets/Images/profil-picture.webp' alt='photo de ma tête' id='profil-picture'/>
+					<img src='/Portfolio/assets/Images/profil-picture.webp' alt='photo de ma tête' id='profil-picture'/>
 				</div>
-				<img src='/assets/Images/logo-stacks.webp' alt = 'logos des stacks front-end et back-end' />
+				<img src='/Portfolio/assets/Images/logo-stacks.webp' alt = 'logos des stacks front-end et back-end' />
 			</div>
 			
 		</main>
