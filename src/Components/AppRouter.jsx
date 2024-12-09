@@ -17,16 +17,16 @@ function ScrollToTop() {
 
 export default function AppRouter() {
   return (
-      <Router>
-        <ScrollToTop />
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/404" element={<PageNotFound />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </Router>
+    <Router basename="/Portfolio">
+      <ScrollToTop />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/404" element={<PageNotFound />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </Router>
   )
 }
