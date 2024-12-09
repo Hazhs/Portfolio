@@ -17,7 +17,7 @@ function ScrollToTop() {
 
 export default function AppRouter() {
   return (
-    <Router basename="/Portfolio">
+    <Router>
       <ScrollToTop />
       <Header />
       <Routes>
